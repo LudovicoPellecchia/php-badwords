@@ -18,8 +18,8 @@
                 <label for="floatingTextarea2">Paragraph</label>
             </div>
             <div class="mb-3 mt-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+                <label class="form-label">Password</label>
+                <input type="" class="form-control" name="password">
             </div>
             <button type="submit" class="btn btn-primary">Invia</button>
         </form>

@@ -3,7 +3,7 @@
 $paragraph = $_POST["paragraph"];
 $password = $_POST["password"];
 
-
+$criptedpassword = $password = str_repeat("*", 3);
 
 ?>
 
@@ -23,7 +23,7 @@ $password = $_POST["password"];
             <span style="font-size:1.3rem;font-weight:200" ><?php echo $paragraph ?></span> 
             <span style="font-size:1.4rem;font-weight:400" >Lunghezza Paragrafo: <?php echo strlen($paragraph)?> caratteri</span> 
         </h3>
-        <h3>Password: <span style="font-size:1.3rem;font-weight:200" ><?php echo $password = str_repeat("*", 3);  ?></span> </h3>
+        <h3>Password: <span style="font-size:1.3rem;font-weight:200" ><?php echo $criptedpassword;  ?></span> </h3>
     </div>
     
 </body>

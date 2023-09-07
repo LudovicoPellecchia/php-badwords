@@ -3,7 +3,7 @@
 $paragraph = $_POST["paragraph"];
 $password = $_POST["password"];
 
-$criptedpassword = $password = str_repeat("*", 3);
+$criptedpassword = str_replace($password, "***", $paragraph )
 
 ?>
 
